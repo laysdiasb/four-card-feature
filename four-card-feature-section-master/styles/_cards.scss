@@ -1,0 +1,58 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-column-gap: -20px;
+    grid-row-gap: 20px;  
+    justify-items: center;
+
+h3 {
+    color: $very-dark-blue;
+}
+p {
+    color: $grayish-blue;
+}
+}
+
+
+.box {
+    box-shadow: 6px 6px 20px rgba(84, 158, 242, 0.2);
+    min-height: 30vh;
+    width: 70%;
+    border-radius: 8px;
+
+h3, p {
+    margin: 1rem;
+    
+}
+img {
+    position: relative;
+    left: 70%;
+}
+}
+
+.supervisor {
+    border-top: 3px solid $cyan;
+    grid-area: 2 / 1 / 4 / 2;
+    justify-self: right;
+}
+
+.team-builder {
+    border-top: 3px solid $red;
+    grid-area: 1 / 2 / 3 / 3; 
+ 
+}
+
+.karma {
+    border-top: 3px solid $orange;
+    grid-area: 3 / 2 / 5 / 3; 
+
+}
+
+.calculator {
+    border-top: 3px solid $blue;
+    grid-area: 2 / 3 / 4 / 4;
+    justify-self: left;
+
+}
+
